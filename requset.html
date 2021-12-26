@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- index-3 06:43:55 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <title>Request</title>
+
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="css/style4.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+   
+
+    <link rel="stylesheet" href="not.css">
+
+    <link rel="stylesheet"  href="webfonts.css">
+    <link rel="stylesheet"  href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <link herf=Fonts/fontawesome-webfont.ttf?v=4.2.0">
+    
+    
+
+</head>
+
+<body>
+    <div class="boxed_wrapper">
+
+        <div class="preloader"></div>
+       <!--Start Main Header-->
+       <header class="main-header header-style2 stricky">
+        <div class="inner-container clearfix">
+            <div class="logo-box-style2 float-right">
+                <a href="">
+                    <img src="images/iulogo.png" alt="Awesome Logo" width = "250" height = "100">
+                </a>
+            </div>
+            <div class="main-menu-box float-left">
+                <nav class="main-menu style2 clearfix">
+                    <div class="navbar-header clearfix">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    </div>
+                    <div class="navbar-collapse collapse clearfix">
+                        <ul class="navigation clearfix">
+                            <li><a href="index.html">Home</a></li>
+ 
+                            
+                            <li class="dropdown"><a href="about.html">About Us</a>
+                                <ul>
+                                    <li><a href="">Vision</a></li>
+                                    <li><a href="">Mision</a></li>
+                                    <li><a href="">Objectives</a></li>
+                                    
+                                </ul>
+                            </li>
+                            
+                            <li><a href="contact_us.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="mainmenu-right style2">
+                    <div class="outer-search-box">
+                        <div class="seach-toggle"><i class="fa fa-search"></i></div>
+                        <ul class="search-box">
+                            <li>
+                                <form method="post" action="#">
+                                    <div class="form-group">
+                                        <input type="search" name="search" placeholder="Search Here" required>
+                                        <button type="submit"><i class="fa fa-search"></i></button>
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="button">
+                        <a class="btn-one" href="#">Log in<span class="fa fa-sign-in"></span></a>
+                        <div class="big-title" >
+                            Graduate Platform
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End Main Header-->
+
+        <!--side bar-->
+    </br> 
+
+   
+     
+
+</div> 
+</br> </br> 
+<div class="container2">
+	<ul>
+		<li class="link"><a href="#"> <i class="fa fa-home"> </i> Home Page  </a></li>
+		<div id="admineditsearch_list">
+			<i class="fas fa-tasks"></i><a href="mangement news and events.html"> Mangment Event And News </a> 
+				<ul >
+					<li><a href="#"> Writing Event / News </a></li>
+					<li> <a href="#">Management Event / News</a></li>
+				    <li><a href="#" > Orders </a></li>
+				</ul>
+			</li>
+		</div>
+		<div id="shows">
+			<i class="fas fa-calendar-week"></i>	<li onclick="listToggle(this)">
+				Data Management / Research And Reports
+				<ul class="slide_list" id="admineditreport_list">
+					<li ><a href="#">
+						  Edit Data
+						</a>	</li>
+					<li><a href="#">
+						  Data Recording
+						</a></li>
+					<li><a href="#">
+					 Approval Of User Data
+					</a></li>
+				</ul>
+			</li>
+		
+		</div>
+		<div id="messages">
+			<i class="fas fa-envelope-open"></i><li  onclick="listToggle(this)"> Meessages
+				<ul id="admin_msg" class="slide_list">
+					<li><a href="#"> Reply To Meessages </a></li>
+				</ul>
+			</li>
+
+		</div>
+		<div id="login"style="color:#fff;">
+			<i class="fas fa-user-graduate"></i> <li  onclick="listToggle(this)">
+				 Graduate Platform 
+				<ul class="slide_list">
+				<a href=""> <li> Graduate Card Management </a>	 </li>
+				
+				</ul>
+			</li>
+		</div>
+		<i class="far fa-file"></i>	<a href="#"> View Reports  </a>
+	</ul>
+</div>
+
+        <!--end of side bar-->
+
+        <!--Start latest blog area style2-->
+        <section class="latest-blog-area style3">
+            <div class="container inner-content continer_box">
+                <div class="row Orders">
+                    <div class="col-xl-12">
+                        <div class="sec-title float-left">
+                            <div class="title" id="title_name">Graduates<span> Orders</span></div>
+                                                        <p>
+                                                            <form id= "search_order">
+                                                                <label id="Categories_label"for="Categories">Categories:</label>
+                                                                <select id="countriesDropdown" >
+                                                                    <option>All</option>
+                                                                    <option>Success Story</option>
+                                                                    <option>Graduate Efforts</option>
+                                                                    <option>Graduate Invitiatives</option>
+                                                                    <option>Data Audit</option>
+                                                                    <option>User Audit</option>
+                                            
+                                                                  </select>
+                                                                <label for="fname" id ="student_name">Student name:</label>
+                                                                <input type="text" id="fname" name="fname"><br>
+                                                               
+                                                               
+                                                               
+                                                                <a  id="serch_button" value="Search" onclick="filterTable();" >Search </a>
+                                                              </form><b></b></p>
+
+                                                            </div>
+                                                            <div class="shop-page-content">
+                                                                <table id="table_order">
+                                                                    <tr>
+                                                                    <th>Student Number</th>
+                                                                    <th>Student Name</th>
+                                                                    <th>Category</th>
+                                                                    <th>Details</th>
+                                                                    </tr>
+                                                                    <tr>
+        
+                                                                    <td> 1 </td>
+                                                                    <td class="col2">Peter Griffin</td>
+                                                                    <td>Success Story</td>
+                                                                    <td><button class="open-button" onclick="openForm()">Open Messages</button>
+                                                                     
+                                                                    </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td> 2 </td>
+                                                                        <td class="col2">Kalid Ahamad</td>
+                                                                        <td>Graduate Efforts</td>
+                                                                        <td><button class="open-button" onclick="openForm()">Open Messages</button>
+                                                                          
+                                                                           </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td> 3 </td>
+                                                                        <td class="col2">Majed Mohamad</td>
+                                                                        <td>Data Audit</td>
+                                                                        <td><button class="open-button" onclick="openForm()">Open Messages</button>
+                                                                         
+                                                                            
+                                                                           </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td> 4 </td>
+                                                                        <td class="col2">Same Ahamad</td>
+                                                                        <td>User Audit</td>
+                                                                        <td><button class="open-button" onclick="openForm()">Open Messages</button>
+                                                                           
+                                                                           </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td> 5 </td>
+                                                                        <td class="col2">Time Griffin</td>
+                                                                        <td>Success Story</td>
+                                                                        <td><button class="open-button" onclick="openForm()">Open Messages</button>
+                                                                            
+                                                                           </td>
+                                                                        </tr>
+                                                                  </table>
+                                                        
+                                                            </div>
+                                                            
+                                                            <button class="open-button" id ="message_button" onclick="openMassage_request()">Send Messages</button>
+                                    
+                                                        </div>
+                                                    </div>
+                                                    </div>
+        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            </div>
+            <div class="modal1" id="Open_Messages">
+                <div class="header">
+                  <div class="title">Scusess Sotry</div>
+                  
+                </div>
+                <div class="body">
+                  
+                      <form>
+                        <center>
+                        <div class ="info-div">  <input type="text" id="name" name="name" value="" >
+                          <label > Name </label>
+                        
+                        <input type="text" id="name" name="name" value="" >
+                        <label > Collage </label>
+                        </div>
+                        <div ><input type="text" id="name1" name="name" value="" >
+                        <label > Nationality </label>
+                        <input type="text" id="name1" name="name" value="">
+                        <label > Major </label></div>
+                        </center>
+          
+                          <div>  <input type="checkbox" id="photo" name="photo" value="">
+                            <label > I went show my photo</label></div>
+                            <center>
+                        <br>
+                       <div><textarea name="summery" id="area-disply"></textarea> </div>
+                        
+                        <p >Written messages will be shown on the alumni board for all to see.</p>
+                           </center>
+                           <center>
+                        <input type="radio" id="mind" name="mind" value="mind">
+                          <label >Mind</label><br>
+                          <input type="radio" id="I-donot-mind" name="I donot mind" value="I donot mind">
+                          <label >I donot mind</label><br>
+                        <a style="display: inline;"href="" download="">
+                          <img id="download"src="images/download.png" alt="" >
+                        </a>
+                    </center>
+                      </form>
+                          </div>
+                          <div class="modal-footer">
+                                <button class="link modal-submit" type="submit"> save </button>
+                                <button onclick="closeForm()" class="link modal-submit" type="button"> close </button>
+                                    
+                  </div>
+                </div>
+                <div class="modal1" id="massage_request">
+                    <div class="header">
+                      <div class="title">Scusess Sotry</div>
+                      
+                    </div>
+                    <div class="body">
+                      
+                          <form>
+                            
+              
+                             <center>
+                           
+                            <br>
+                            <p >Summery</p>
+                           <div><textarea name="summery" id="area-disply"></textarea> </div>
+                            
+                        </center>
+                        <center>
+                        <select>
+                            <option>Choose</option>
+                            <option>Data Checker</option>
+                            <option>Approval</option>
+                            <option>Student</option>
+                            <option>Delete</option>
+                            <option>Edit</option>
+
+                            </select>
+                        </center>
+                       <center>
+                           <div><textarea name="summery" id="area-disply"></textarea> </div>
+                        </center>
+                               
+                           
+                        
+                          </form>
+                              </div>
+                              <div class="modal-footer">
+                                    <button class="link modal-submit" type="submit"> Send </button>
+                                    <button onclick="closeMassage_request()" class="link modal-submit" type="button"> close </button>
+                                        
+                      </div>
+                    </div>
+        
+                            
+                          </div>
+                          </div>
+                          </div>
+                          </div>
+                          </section>
+
+
+
+
+                        
+            
+
+    <!--footer-->
+       <!--footer-->
+       <footer>
+        <div class="footer">
+        <div class="containerfooter">
+            <div class="row">
+             
+       
+       
+       
+                <div class="footer-col">
+                        <h1>About us</h1>
+                        <ul>
+                            <li><a href="https://iu.edu.sa/iuvr/islamic-univ.html">Virtual Tour</a></li>
+                            <li><a href="https://iu.edu.sa/site_page/20252">Regulations</a></li>
+                            <li><a href="https://emp.iu.edu.sa">Employment</a></li>
+                            <li><a href="https://directory.iu.edu.sa/"> Directory</a></li>
+                           
+                        </ul>
+                    </div>
+                </div>
+       
+       
+             
+                <div class="footer-col">
+                        <h1>  admission</h1>
+                        <ul>
+                             <li><a href="https://eduportal.iu.edu.sa/iu/init?service=graduationDocAr">Admission  </a></li>
+                            <li><a href="https://eduportal.iu.edu.sa/iu/init?service=academicCalendar">Academic Calendar </a></li>
+                            <li><a href="https://eduportal.iu.edu.sa/iu/init?service=facultiesMajors">Study Plans</a></li>
+                          <li><a href="https://eduportal.iu.edu.sa/iu/init?service=graduationDocAr">Gradute Doc Verification</a></li>
+                           
+       
+                        </ul>
+                    </div>
+       
+       
+                <div class="footer-col">
+                        <h1> TECHNICAL SUPPORT</h1>
+                        <ul>
+                            <li><a href="https://iu.edu.sa/site_page/22206">Tawasol </a></li>
+                            <li><a href="https://iu.edu.sa/site_Page/21572">IT </a></li>
+                            <li><a href="https://iu.edu.sa/Page/index/20839"> Security Policy </a></li>
+       
+                        </ul>
+                    </div>
+       
+       
+       
+       
+       
+                <div class="footer-col">
+                        <h1> CONTACT US</h1>
+                        <ul class="contactus">
+                            <li><i class="fa fa-volume-control-phone"style="color:rgb(213,122,91); !important;"></i><a href="#">TEL / <span>920022042</span></a></li>
+                            <li><i class="fa fa-map-marker"style="color:rgb(213,122,91); !important;"><a href="https://goo.gl/maps/t1Jtvs2BZVSRtJPRA"></i><a href="#">Google Map</a></li>
+                            <li><i class="fa fa-envelope-open-text"style="color:rgb(213,122,91); !important;"></i><a href="#">Email      / <span>contact@iu.edu.sa</span></a></li>
+                            <li><i class="fa fa-globe" style="color:rgb(213,122,91); !important;"></i><a href="#">  Site Dirctory</a></li>
+                        </ul>
+       
+                    </div>
+       
+                    <div class="footer-col">
+                        <h1>    Follow Us</h1>
+                        <ul class="socialicons">
+                            <li class="facebook"><a href="#" title="facebook"><i class="fab fa-facebook"style="color:rgb(213,122,91); !important;"></i></a></li>
+                            <li class="twitter"><a href="#" title="Twitter"><i class="fab fa-twitter"style="color:rgb(213,122,91); !important;"></i></a></li>
+                            <li class="youtube"><a href="#" title="Youtube channel"><i class="fab fa-youtube-square"style="color:rgb(213,122,91); !important;"></i></a></li>
+                            <li class="flickr"><a href="#" title="flickr"><i class="fab fa-flickr"style="color:rgb(213,122,91); !important;"></i></a></li>
+                        </ul>
+                    </div>
+       
+       
+       
+       
+                </div>
+        </div>
+        </div>
+       
+       
+       
+         
+       
+        <div id="copyright">
+        <div class="containerfooter">            
+        <div class="footer-col">
+            <div class="copytxt">  All rights reserved | Islami University of Madinah     © 2019 </div>
+            <ul class="containerfooter">
+                <li><a href="#">privacy Policy </a></li>
+                <li><a href="#"> Rules and Regulations</a></li>
+            </ul>
+        </div>
+       
+        </div>
+            </div>
+            </div>
+        </footer>
+        <!--end of footer-->
+        <!--end of footer-->
+
+
+    
+
+
+
+    <script src="js/jquery.js"></script>
+    
+    <script src="js/wow.js"></script>
+
+    <script src="js/script.js"></script>
+    <script src="js/interaction.js"></script>
+    
+
+    <!--Revolution Slider-->
+    <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <!-- thm custom script -->
+    <script src="js/custom.js"></script>
+    <script src="js/main-slider-script.js"></script>
+
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="afnanstyle.css" />
+    
+    <title>Modal</title>
+  </head>
+  <body>
+<form>
+    <table>
+        <tr><th>
+        <label >fullname:</label></th>
+        <th><input type="text" id="fname" name="fname" value="ahmed saeed"></th>
+        <th><label >collage</label></th>
+        <th><input type="text" id="collage" name="collage" value="computer"> </th>
+        <th>     <label >nationality</label></th>
+    <th> <input type="text" id="nationality" name="nationality" value="saudi">  </th>
+        <th>  <label >major</label> </th>
+       <th> <input type="text" id="major" name="major" value="IT"></th>
+        
+    </tr>
+    </table>
+</form>
+    <br> 
+    <center>
+
+        <div class="container">
+            <button class="btn" data-target="#modal1">Open Modal</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="btn" data-target="#modal2">Open Modal 2</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="btn" data-target="#modal3">Open Modal 3</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+    </center>
+    
+    
+    </div>
+
+    <div class="modal" id="modal1">
+      <div class="header">
+        <div class="title">First Modal</div>
+        <button class="btn close-modal">&times;</button>
+      </div>
+      <div class="body">
+        <center>
+            <form>
+                
+                <div>  <input type="checkbox" id="photo" name="photo" value="" >
+                  <label > I went show my photo</label></div>
+             <div> <textarea id="write msg" name="message" placeholder="write efforts"
+              style="width: 250px;height: 125px; padding: auto;
+              border:1px dashed rgb(55, 20, 138);
+              background-color:aliceblue;"></textarea> </div>
+              <br>
+             <div><textarea name="summery" ></textarea> </div>
+              
+              <p>Written messages will be shown on the alumni board for all to see.</p>
+                 
+              <input type="radio" id="mind" name="mind" value="mind">
+                <label >Mind</label><br>
+                <input type="radio" id="I donot mind" name="I donot mind" value="I donot mind">
+                <label >I donot mind</label><br>
+            </form></center>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                      <button class="link modal-submit" type="submit"> save </button>
+                      <button class="link modal-submit" type="button"> close </button>
+                    </center>
+                  
+
+      </div>
+    </div>
+    <div class="modal" id="modal2">
+      <div class="header">
+        <div class="title">Second Modal</div>
+        <button class="btn close-modal">&times;</button>
+      </div>
+      <div class="body">
+          <center>
+  <form>
+      
+      <div>  <input type="checkbox" id="photo" name="photo" value="" >
+        <label > I went show my photo</label></div>
+   <div> <textarea id="write msg" name="message" placeholder="write efforts"
+    style="width: 250px;height: 125px; padding: auto;
+    border:1px dashed indigo;
+    background-color:aliceblue;"></textarea> </div>
+    <br>
+   <div><textarea name="summery" ></textarea> </div>
+    
+    <p>Written messages will be shown on the alumni board for all to see.</p>
+       
+    <input type="radio" id="mind" name="mind" value="mind">
+      <label >Mind</label><br>
+      <input type="radio" id="I donot mind" name="I donot mind" value="I donot mind">
+      <label >I donot mind</label><br>
+  </form></center>
+      </div>
+      <div class="modal-footer">
+          <center>
+            <button class="link modal-submit" type="submit"> save </button>
+            <button class="link modal-submit" type="button"> close </button>
+          </center>
+        
+      </div>
+    </div>
+
+    <div class="modal" id="modal3">
+        <div class="header">
+          <div class="title">afghjjjjjj</div>
+          <button class="btn close-modal">&times;</button>
+        </div>
+        <div class="body">
+            <center>
+                <form>
+                    
+                    <div>  <input type="checkbox" id="photo" name="photo" value="" >
+                      <label > I went show my photo</label></div>
+                 <div> <textarea id="write msg" name="message" placeholder="write efforts"
+                  style="width: 250px;height: 125px; padding: auto;
+                  border:1px dashed indigo;
+                  background-color:aliceblue;"></textarea> </div>
+                  <br>
+                 <div><textarea name="summery" ></textarea> </div>
+                  
+                  <p>Written messages will be shown on the alumni board for all to see.</p>
+                     
+                  <input type="radio" id="mind" name="mind" value="mind">
+                    <label >Mind</label><br>
+                    <input type="radio" id="I donot mind" name="I donot mind" value="I donot mind">
+                    <label >I donot mind</label><br>
+                </form></center>
+                    </div>
+                    <div class="modal-footer">
+                        <center>
+                          <button class="link modal-submit" type="submit"> save </button>
+                          <button class="link modal-submit" type="button"> close </button>
+                        </center>
+                      
+        </div>
+      </div>
+    <div id="overlay"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

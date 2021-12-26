@@ -1,0 +1,526 @@
+<!-- Page 23 in documnet -->
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>التسجيل </title>
+
+   
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="css/registercss.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    
+        <link rel="stylesheet"  href="webfonts.css">
+        <link rel="stylesheet"  href="css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+        <link herf=Fonts/fontawesome-webfont.ttf?v=4.2.0">
+        
+    
+
+</head>
+<body>
+   
+
+       
+     
+		<!--Start Main Header-->
+        <header class="main-header header-style2 stricky">
+            <div class="inner-container clearfix">
+                <div class="logo-box-style2 float-right">
+                    <a href="">
+                        <img src="images/iulogo.png" alt="Awesome Logo" width = "250" height = "100">
+                    </a>
+                </div>
+                <div class="main-menu-box float-left">
+                    <nav class="main-menu style2 clearfix">
+                        <div class="navbar-header clearfix">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        </div>
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <li><a href="index.html">Home</a></li>
+     
+                                
+                                <li class="dropdown"><a href="about.html">About Us</a>
+                                    <ul>
+                                        <li><a href="">Vision</a></li>
+                                        <li><a href="">Mision</a></li>
+                                        <li><a href="">Objectives</a></li>
+                                        
+                                    </ul>
+                                </li>
+                                
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="mainmenu-right style2">
+                        <div class="outer-search-box">
+                            <div class="seach-toggle"><i class="fa fa-search"></i></div>
+                            <ul class="search-box">
+                                <li>
+                                    <form method="post" action="#">
+                                        <div class="form-group">
+                                            <input type="search" name="search" placeholder="Search Here" required>
+                                            <button type="submit"><i class="fa fa-search"></i></button>
+                                        </div>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="button">
+                            <a class="btn-one" href="#">Sign up<span class="fas fa-user-plus fa-sm"></span></a>
+                            <div class="big-title" >
+                                Graduate Platform
+                                    </div> 
+                                
+                    </div>
+                        <div class="button">
+                            <a class="btn-one" href="#">Log in<span class="fa fa-sign-in fa-sm" style="font-size: 25px;"></span></a>
+                            
+                            </div>
+                            
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--End Main Header-->
+    </br> 
+    <div class="container">
+        <div>
+            <ul>
+                <li class="link">
+                    <a href="index.html"> <i class="fa fa-home"> </i> Home Page </a>
+                </li>
+                <li class="link">
+                    <a href="News.html">
+                        <i class="fa fa-newspaper"></i>
+                        News
+                    </a>
+                    
+                </li>
+                <a href="Events.html">
+                    <li class="link"><i class="fa fa-calendar-week"></i>	Events			</a></li>
+    
+                    <i class="fa fa-user-graduate"></i><li  onclick="listToggle(this)">
+            
+                        Graduate platform 
+                        <ul class="slide_list">
+                            <a href=""> <li> Success Stories  </li></a>
+                            <a href=""> <li>Graduates Efforts  </li></a>
+                            <a href=""><li>  Graduates initiatives </li></a>
+                            
+                            </ul>
+                        
+                        
+                </li>
+    
+                <div id="login">
+                    <i class="fa fa-sign-in-alt"></i><li onclick="listToggle(this)">registration / Login Graduate Student
+             
+                        <ul class="slide_list" id="login_list">
+                            <a href="Register.html"> <li>Registration</li></a>
+                            <a href=""><li> Login</li></a>
+                            <a href=""><li> Reset Password </li></a>
+                        </ul>
+                    </li>
+                </div>
+                <li class="link"><a href=""><i class="fa fa-comments" ></i> Contact Us  </a></li>
+            </ul>
+        </div>
+    </div>  
+
+
+
+
+
+        <div id="login-box2">
+            <div class="left">
+              <h1>التسجيل</h1>
+              <label >Full name:</label></br>
+              <div class="form-row">
+                <div class="col">
+                  
+                  <input type="Fname" class="form-control" id="inputFirstname" name = "first_name" placeholder="الاسم الأول">
+              </div>
+
+              <div class="col">
+               
+                  <input type="Fathname" class="form-control" id="inputFathername" placeholder="اسم الاب">
+              </div> </br> </br> </br> 
+              
+            
+            </div>
+            
+            
+            <div class="form-row">
+             <div class="col">
+       
+          <input type="Gfname" class="form-control" id="inputGrand" placeholder="اسم الجد">
+          </div>
+
+          <div class="col">
+        
+          <input type="Famname" class="form-control" id="inputFamily" placeholder="اسم العائلة" name="last_name">
+           </div></div>
+
+        </br> </br>
+        <label>:الاسم في جواز السفر</label>
+           <div class="form-row">
+            <div class="col">
+              
+              <input type="Fname" class="form-control" id="inputFirstname" name = "first_name" placeholder="الاسم الأول">
+          </div>
+
+          <div class="col">
+              
+              <input type="Fathname" class="form-control" id="inputFathername" placeholder="اسم الأب">
+          </div> </br> 
+        </div>
+
+        <div class="form-row">
+         <div class="col">
+      </br>
+      <input type="Gfname" class="form-control" id="inputGrand" placeholder="اسم الجد">
+      </div>
+
+      <div class="col">
+      </br>
+      <input type="Famname" class="form-control" id="inputFamily" placeholder="اسم العائلة" name="last_name">
+       </div></div>
+        </br>
+        <div class="form-row">
+            <div class="col">
+            <label for="inputEmail4">:الحنسية</label></br>
+            <select id="Nationality" name="Nationality">
+              <option value="volvo">سعودي</option>
+              <option value="saab">هندي</option>
+              <option value="fiat">سوداني</option>
+              <option value="audi">مصري</option>
+            </select>
+             </div>
+             <div class="col">
+             <label for="inputEmail4">:تاريخ الميلاد</label>
+             <input type="date" id="Nationality" name="birthday" value="2018-07-22"
+             min="" max="">
+          </div>
+          </div>
+          </br> 
+          <div class="form-row">
+          <div class="col">
+              <label for="inputEmail4">:بلد الميلاد</label></br>
+              <select id="Nationality" name="Nationality">
+                <option value="volvo">Medina</option>
+                <option value="saab">Makka</option>
+                <option value="fiat">Jeddah</option>
+                <option value="audi">Riyadh</option>
+              </select>
+               </div>
+          <div class="col">
+            <label for="inputEmail4">:بلد الميلاد</label></br>
+            <select id="Nationality" name="Nationality">
+              <option value="volvo">المدينةالمنورة</option>
+              <option value="saab">مكة</option>
+              <option value="fiat">جدة</option>
+              <option value="audi">الرياض</option>
+            </select>
+             </div> 
+          </div></br> 
+          <div class="form-row">
+              <div class="col">
+                  <label for="inputEmail4">:تاريخ الالتحاق بالجامعة</label>
+                  <input type="date" id="Nationality" name="birthday" value="2018-07-22"
+                  min="" max="">
+                 </div>
+             <div class="col">
+              <label for="inputEmail4">:الكلية</label></br>
+              <select id="Nationality" name="Nationality">
+                <option value="volvo">كلية علوم الحاسب</option>
+                <option value="saab">كلية القانةن</option>
+                <option value="fiat">كلية العلوم</option>
+                <option value="audi">كلية الهندسة</option>
+              </select>
+               </div>
+          
+          
+          </div>
+    </br>
+       <div class="form-row">
+        <div class="col">
+          <label for="inputEmail4">:المؤهل من داخل الجامعة</label> </br>
+          <select id="Nationality" name="Nationality">
+            <option value="volvo">بكالوريوس</option>
+            <option value="saab">دبلوم</option>
+            <option value="fiat">بكالوريوس</option>
+            <option value="audi">بكالوريوس</option>
+          </select>
+        </div>
+     
+    </br>
+      
+        <div class="col">
+          <label for="inputEmail4">:المؤهل من خارج الجامعة</label> </br>
+          <select id="Nationality" name="Nationality">
+            <option value="volvo">بكالوريوس</option>
+            <option value="saab">دبلوم</option>
+            <option value="fiat">بكالوريوس</option>
+            <option value="audi">بكالوريوس</option>
+          </select>
+        </div>
+      </div>
+    </br>
+    <div class="form-row">
+        <div class="col">
+            <label for="email">:تاريخ العمل</label> </br>
+            <input type="email" id="Job data"  class="form-control" required>
+            </div>
+        
+            <div class="col">
+                <label for="phone">:صاحب العمل</label> </br>
+                <input type="tel" id="employer"  class="form-control" >
+                </div>  
+        </div>
+    </br>
+      <div class="form-row">
+        <div class="col">
+            <label for="email">:الأميل</label> </br>
+            <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+        
+            <div class="col">
+                <label for="phone">:رقم الهاتف</label> </br>
+                <input type="tel" id="phone" name="phone" class="form-control" >
+                </div>  
+                <div class="col">
+                    <label for="phone">:رقم الواتسب</label> </br>
+                    <input type="tel" id="phone" name="phone" class="form-control" >
+                    </div> 
+        </div>
+        <div class="form-row">
+            <div class="col">
+                <label for="email">:منصب قيادي كنت قد شغلته</label> </br>
+                <input type="email" id="position"  class="form-control" required>
+                </div>
+             
+            </div>
+            <label for="skills">:المهارات والخبرات المكتسبة</label> </br>
+            <textarea rows="3" cols="70" class="form-control" id="skills" name="skills" placeholder="" > 
+                
+            </textarea>
+    </br>
+        <div class="form-row">
+            <div class="col">
+                <label for="code">:الكود المرسل</label> </br>
+                <input type="code" id="code" name="sentCode" class="form-control" placeholder="">
+                </div></div> 
+            </br>
+            <div class ="note">
+                <div class="form-row">
+                    <div class="col">
+                        <p>نسأل الله التوفيق والسداد في دينك ودنياك. مع تحيات إخوانك في عمادة الخريجين والتعاون الدولي</p>
+     <p>هذه البيانات خاضعة للمراجعة والتدقيق</p>
+                       <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                       <label for="vehicle1"> أصادق على صحة المعلومات</label><br>
+                       </div></div></div>
+        <div class="form-row">
+            <div class="col">
+                <button type="submit" class="registerbtn">Register</button>
+                </div>
+            </div>
+        
+            
+    <div class = "note">
+         <div class="form-row">
+        <div class="col">
+            <br>
+
+      
+    </div> 
+   </div>
+
+
+ 
+            </div>
+        </div>
+        
+            <div class="right">
+                <div class = "IE">
+              <span class="loginwith"></span>
+              <p>يرجى البحث عن بياناتك باستخدام معرف الجامعة </p> </br>
+              <input  name="search2" placeholder="" class="form-control"></br>
+              <button type="search" class = "sear"></i>بحث</button>
+
+            
+            
+            </div>
+        </br></br></br></br></br></br>
+            
+                    
+                      
+            </div>
+            
+          </div>
+
+
+
+
+
+
+
+
+
+    
+
+           <footer>
+        <div class="footer">
+        <div class="containerfooter">
+            <div class="row">
+             
+       
+       
+       
+                <div class="footer-col">
+                        <h1>About us</h1>
+                        <ul>
+                            <li><a href="https://iu.edu.sa/iuvr/islamic-univ.html">Virtual Tour</a></li>
+                            <li><a href="https://iu.edu.sa/site_page/20252">Regulations</a></li>
+                            <li><a href="https://emp.iu.edu.sa">Employment</a></li>
+                            <!-- <li><a href="https://competency.iu.edu.sa/login.aspx?ReturnUrl=%2fDefault.aspx">استقطاب</a></li> -->
+                            <li><a href="https://directory.iu.edu.sa/"> Directory</a></li>
+                           
+                        </ul>
+                    </div>
+                </div>
+       
+       
+             
+                <div class="footer-col">
+                        <h1>  Admission</h1>
+                        <ul><!--https://admission.iu.edu.sa/WelcomePortal.aspx-->
+                             <li><a href="https://eduportal.iu.edu.sa/iu/init?service=graduationDocAr">Admission  </a></li>
+                            <li><a href="https://eduportal.iu.edu.sa/iu/init?service=academicCalendar">Academic Calendar </a></li>
+                            <li><a href="https://eduportal.iu.edu.sa/iu/init?service=facultiesMajors">Study Plans</a></li>
+                          <li><a href="https://eduportal.iu.edu.sa/iu/init?service=graduationDocAr">Gradute Doc Verification</a></li>
+                           
+       
+                        </ul>
+                    </div>
+       
+       
+                <div class="footer-col">
+                        <h1> TECHNICAL SUPPORT</h1>
+                        <ul>
+                            <li><a href="https://iu.edu.sa/site_page/22206">Tawasol </a></li>
+                            <li><a href="https://iu.edu.sa/site_Page/21572">IT </a></li>
+                            <li><a href="https://iu.edu.sa/Page/index/20839"> Security Policy </a></li>
+       
+                        </ul>
+                    </div>
+       
+       
+       
+       
+       
+                <div class="footer-col">
+                        <h1> CONTACT US</h1>
+                        <ul class="contactus">
+                            <li><i class="fa fa-volume-control-phone"style="color:rgb(213,122,91); !important;"></i> TEL / <span>920022042</span></li>
+                      <!--      <li><i class="fa fa-fax"></i>فاكس / <span> </span></li> -->
+                            <li><i class="fa fa-map-marker"style="color:rgb(213,122,91); !important;"></i> <a href="https://goo.gl/maps/t1Jtvs2BZVSRtJPRA">  Google Map</a></li>
+                            <li><i class="fas fa-envelope-open-text"style="color:rgb(213,122,91); !important;"></i>  Email      / <span>contact@iu.edu.sa</span></li>
+                            <li><i class="fa fa-globe" style="color:rgb(213,122,91); !important;"></i><a href="#"> Site Dirctory </a></li>
+                        </ul>
+       
+                    </div>
+       
+                    <div class="footer-col">
+                        <h1>    Follow Us</h1>
+                        <ul class="socialicons">
+                            <li class="facebook"><a href="#" title="facebook"><i class="fab fa-facebook"style="color:rgb(213,122,91); !important;"></i></a></li>
+                            <li class="twitter"><a href="#" title="Twitter"><i class="fab fa-twitter"style="color:rgb(213,122,91); !important;"></i></a></li>
+                            <li class="youtube"><a href="#" title="Youtube channel"><i class="fab fa-youtube-square"style="color:rgb(213,122,91); !important;"></i></a></li>
+                            <li class="flickr"><a href="#" title="flickr"><i class="fab fa-flickr"style="color:rgb(213,122,91); !important;"></i></a></li>
+                        </ul>
+                    </div>
+       
+       
+       
+       
+                </div>
+        </div>
+        </div>
+         
+       
+        <div id="copyright">
+        <div class="containerfooter">            
+        <div class="footer-col">
+            <div class="copytxt">  All rights reserved | Islami University of Madinah     © 2019 </div>
+            <ul class="containerfooter">
+                <li><a href="#">privacy Policy </a></li>
+                <li><a href="#"> Rules and Regulations</a></li>
+            </ul>
+        </div>
+       
+        </div>
+            </div>
+            </div>
+        </footer>
+    
+        
+    
+    
+    
+        <script src="js/jquery.js"></script>
+         <!--Search icon-->
+        <script src="js/wow.js"></script>
+        <!--Revolution Slider-->
+        <!--Page order-->
+        <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script src="js/main-slider-script.js"></script>
+        <!-- thm custom script -->
+        <script src="js/custom.js"></script>
+        <script src="scriptfile.js"></script>
+     <!-- Sidebar amira -->
+     <script src="js/main-slider-script.js"></script>
+     <script src="js/scriptfile-amira.js"></script>
+    
+    </body>
+    
+    
+    
+    </html>
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
