@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update The Information Graduate student Page</title>
+
+   
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="css/style6.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <link rel="stylesheet"  href="webfonts.css">
+        <link rel="stylesheet"  href="css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+        <link herf=Fonts/fontawesome-webfont.ttf?v=4.2.0">
+
+    
+
+</head>
+<body>
+   
+        
+       
+     
+		<!--Start Main Header-->
+        <header class="main-header header-style2 stricky">
+            <div class="inner-container clearfix">
+                <div class="logo-box-style2 float-right">
+                    <a href="">
+                        <img src="images/logo.jfif" alt="Awesome Logo" width = "250" height = "100">
+                    </a>
+                </div>
+                <div class="main-menu-box float-left">
+                    <nav class="main-menu style2 clearfix">
+                        <div class="navbar-header clearfix">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        </div>
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <li><a href="index.html">Home</a></li>
+     
+                                
+                                <li class="dropdown"><a href="about.html">About Us</a>
+                                    <ul>
+                                        <li><a href="">Vision</a></li>
+                                        <li><a href="">Mision</a></li>
+                                        <li><a href="">Objectives</a></li>
+                                        
+                                    </ul>
+                                </li>
+                                
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="mainmenu-right style2">
+                        <div class="outer-search-box">
+                            <div class="seach-toggle"><i class="fa fa-search"></i></div>
+                            <ul class="search-box">
+                                <li>
+                                    <form method="post" action="#">
+                                        <div class="form-group">
+                                            <input type="search" name="search" placeholder="Search Here" required>
+                                            <button type="submit"><i class="fa fa-search"></i></button>
+                                        </div>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="button">
+                            <a class="btn-one" href="#">Log in<span class="fa fa-sign-in"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--End Main Header-->
+
+        <div class="containersidebar">
+            <div>
+                <ul>
+                    <li >
+                        <a href="new.html"> <i class="fa fa-home"> </i>  Home Page  </a>
+                    </li>
+                    <li >
+                        <a href="update-student.html">
+                            <i class="fas fa-sync-alt"></i>  Update Information</a>
+                    </li>
+                    <li >
+                        <a href="#">
+                            <i class="fa fa-calendar-week"></i>  Display The requseted  
+                        </a>
+                    </li>
+                                          <div class="login">
+
+                            <i class="fas fa-graduation-cap"></i>                       <li class="msg-open">  Graduate Platform     
+                                <ul class="slide_list" id="login_list">
+                                    <li><a href="">       Update Graduate Page   </a> </li>                           
+                                </ul>
+                           </li>
+
+        
+                    </div>
+                    <i class="far fa-address-card"></i>   <li >   Graduate Card  </a></li>
+                    <li ><a href=""><i class="fas fa-key"></i>     Change Password  </a></li>
+        
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        <div class="containerupdate">
+            <div class="label">
+            <fieldset  style="border-color: #d57a5b;">
+                <div class="headerinform " > <legend>Basic Information </legend>
+                <form for ="name" >
+                  <label>First Name<input type="text"  value="registered" readonly class="updateinfo"> </label>
+                   <label>Father Name :<input type="text"  value="registered" readonly class="updateinfo"> </label> 
+                  <label>Grand Father Name :<input type="text" value="   registered" readonly class="updateinfo" > </label>  
+                    <label>Family Name  :<input type="text"  value="  registered" readonly class="updateinfo"> </label>
+        
+                   <label> Nationality :<input type="text"  value=" registered " readonly class="updateinfo" > </label>
+                   <br>
+                   <div class="select-option">
+                    <label for="college">graduating college:</label>
+        
+                   <select name="colloge-graduate">
+                     <option  >  registered</option>
+                     <option  disabled>Faculty of Shari'ah</option>
+                     <option  disabled>Faculty of Da'wah and Usuluddeen </option>
+                     <option  disabled>Faculty of Noble Qur'an and Islamic Studies </option>
+                     <option  disabled>Faculty of Hadith and Islamic Studies</option>
+                     <option  disabled>Faculty of Arabic Language </option>
+                     <option  disabled>Faculty of Engineering  </option>
+                     <option  disabled>Faculty of Computer and Information Systems </option>
+                     <option  disabled>Faculty of Science</option>
+                     <option  disabled>Faculty of Regulations</option>
+
+
+
+
+                 
+                 
+                 
+                 
+                    </select>
+
+                   </div>
+                   <div class="select-option">
+
+                   <label for="college">  Qualification from within the university:</label>
+
+                   <select name="qualification-within-uni" >
+                    <option  >  registered</option>
+
+                    <option value="Diploma"disabled>Diploma</option>
+                    <option value="Bachelor"disabled>Bachelor's</option>
+                    <option value="Master's"disabled>Master's</option>
+                    <option value="PhD" disabled>PhD</option>
+                    <option value="Prof"disabled >Prof</option>
+                   </select>
+                 
+                   </div>
+                   
+        
+                   <br>
+                   <br>
+                   <h3>Names As Registered In The Passport </h3>
+                   <label> First Name :<input type="text"  value="registered" readonly class="updateinfo" > </label>
+                   <label>   Father Name :<input type="text" value="registered" readonly class="updateinfo"> </label>
+                    <label> Grand Father Name :<input type="text"  value="   registered" readonly class="updateinfo"> </label>
+                        <label> Family Name  :<input type="text"  value="  registered" readonly class="updateinfo"> </label>
+                            <label> Email :<input type="email" value="registered"class="updateinfo"></label>
+                            <label> Place of Birth : Country<input type="text" value="registered "  class="updateinfo"readonly > </label>
+                            <label> Place of Birth : City<input type="text" value="registered "  class="updateinfo"readonly > </label>
+                 
+                            <label> National Identification Number/Residency number :<input type="number" value="registered "  class="updateinfo"readonly > </label>
+                            <label> Date of Birth :<input type="date" value="registered "  class="updateinfo"readonly > </label>
+                 
+                                <label> <input class="btn-one" type="button" value="submit a basic data update requset" >
+        
+        
+            </fieldset>
+
+                </form>
+            </div>            
+            <fieldset style="border-color: #d57a5b;">
+            <div class="    label"   >
+                <legend>Profession And Contact  Information </legend>
+                
+                <br>
+                <div class="select-option">
+            <label for="Qualification"> Qualification from outside the university:</label>
+            <select name="qualification-without-uni">
+                <option value="colloge" >  registered</option>
+                <option value="Diploma">Diploma</option>
+                <option value="Bachelor's">Bachelor's</option>
+                <option value="Master's">Master's</option>
+                <option value="PhD" >PhD</option>
+                <option value="Prof" >Prof</option>
+            </select>
+        </div>
+            <label> Whats App Number :<input type="number"class="updateinfo" ></label>
+            <label>work Company :<input type="text" class="updateinfo" ></label>
+                <label> Leadership Position :<input type="text"  class="updateinfo"></label>
+                    <label> Phone number :<input type="number" class="updateinfo"></label>
+                        <label> Job Data   :<input type="text" class="updateinfo"></label>
+                        <label> Address :Country  :<input type="text" class="updateinfo"></label>
+                        <label> Address :City  :<input type="text" class="updateinfo"></label>
+                        <label> Address :Street Names  :<input type="text" class="updateinfo"></label>
+                        <label> Address :Postal Code  :<input type="text" class="updateinfo"></label>
+                        <label>Skills and Experince : <textarea ></textarea></label>
+                        
+                       <label for="img">اضاقة صورة :</label>
+                       <input type="file" id="img" name="img" accept="image/*">
+                   
+<div class="btnedit-update">
+        <input class="btn-one"
+               type="button"
+               value=" Update Data ">
+            </div>
+        </div>
+        </div>    
+        </fieldset>
+        </form>
+        
+        
+        
+        <div class="updateimg">
+            <img src="">
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="footer">
+            <div class="containerfooter">
+                <div class="row">
+                 
+           
+           
+           
+                    <div class="footer-col">
+                            <h1>About us</h1>
+                            <ul>
+                                <li><i class="fas fa-angle-double-right"></i>  <a href="https://iu.edu.sa/iuvr/islamic-univ.html">Virtual Tour</a></li>
+                                <li><i class="fas fa-angle-double-right"></i><a href="https://iu.edu.sa/site_page/20252">Regulations</a></li>
+                                <li><i class="fas fa-angle-double-right"></i> <a href="https://emp.iu.edu.sa">Employment</a></li>
+                                <li><i class="fas fa-angle-double-right"></i><a href="https://directory.iu.edu.sa/"> Directory</a></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+           
+           
+                 
+                    <div class="footer-col">
+                            <h1>  admission</h1>
+                            <ul>
+                           <li ><i class="fas fa-angle-double-right"></i><a href="https://eduportal.iu.edu.sa/iu/init?service=graduationDocAr">Admission  </a></li>
+                                <li><i class="fas fa-angle-double-right"></i><a href="https://eduportal.iu.edu.sa/iu/init?service=academicCalendar">Academic Calendar </a></li>
+                               <li><i class="fas fa-angle-double-right"></i><a href="https://eduportal.iu.edu.sa/iu/init?service=facultiesMajors">Study Plans</a></li>
+                               <li><i class="fas fa-angle-double-right"></i><a href="https://eduportal.iu.edu.sa/iu/init?service=graduationDocAr">Gradute Doc Verification</a></li>
+                               
+           
+                            </ul>
+                        </div>
+           
+           
+                    <div class="footer-col">
+                            <h1> TECHNICAL SUPPORT</h1>
+                            <ul>
+ <li><i class="fas fa-angle-double-right"></i><a href="https://iu.edu.sa/site_page/22206">Tawasol </a></li>
+ <li><i class="fas fa-angle-double-right"></i><a href="https://iu.edu.sa/site_Page/21572">IT </a></li>
+<li> <i class="fas fa-angle-double-right"></i><a href="https://iu.edu.sa/Page/index/20839"> Security Policy </a></li>
+           
+                            </ul>
+                        </div>
+           
+           
+           
+           
+           
+                    <div class="footer-col">
+                            <h1> CONTACT US</h1>
+                            <ul class="contactus">
+                                <li><i class="fa fa-volume-control-phone"style="color:rgb(213,122,91); !important;"></i>TEL / <span>920022042</span></li>
+                                <li><i class="fa fa-map-marker"style="color:rgb(213,122,91); !important;"></i><a href="https://goo.gl/maps/t1Jtvs2BZVSRtJPRA">Google Map</a></li>
+                                <li><i class="fas fa-envelope-open-text"style="color:rgb(213,122,91); !important;"></i>Email      / <span>contact@iu.edu.sa</span></li>
+                                <li><i class="fa fa-globe" style="color:rgb(213,122,91); !important;"></i><a href="#">  Site Dirctory</a></li>
+                            </ul>
+           
+                        </div>
+           
+                        <div class="footer-col">
+                            <h1>    Follow Us</h1>
+                            <ul class="socialicons">
+                                <li class="facebook"><a href="#" title="facebook"><i class="fab fa-facebook"style="color:rgb(213,122,91); !important;"></i></a></li>
+                                <li class="twitter"><a href="#" title="Twitter"><i class="fab fa-twitter"style="color:rgb(213,122,91); !important;"></i></a></li>
+                                <li class="youtube"><a href="#" title="Youtube channel"><i class="fab fa-youtube-square"style="color:rgb(213,122,91); !important;"></i></a></li>
+                                <li class="flickr"><a href="#" title="flickr"><i class="fab fa-flickr"style="color:rgb(213,122,91); !important;"></i></a></li>
+                            </ul>
+                        </div>
+           
+           
+           
+           
+                    </div>
+            </div>
+            </div>
+           
+           
+           
+             
+           
+   
+    <div id="copyright">
+        <div class="containerfooter">            
+        <div class="copyright">
+            
+            All rights reserved | Islami University of Madinah © 2021
+              <a href="#"> Rules and Regulations </a> / <a href="#">privacy Policy   </a>
+         
+        </div>
+        </div>
+       
+        </div>
+            </div>
+            </footer>
+    
+    <script src="js/scriptfile-amira.js"></script>
+        <script src="js/jquery.js"></script>
+    
+        <script src="js/sidebar.js"></script>
+    
+    
+    
+    <script src="js/jquery.js"></script>
+     <!--Search icon-->
+    <script src="js/wow.js"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--Revolution Slider-->
+    <!--Page order-->
+    <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+    
+    
+    
+    <script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    
+    
+    
+    
+    
+    <script src="js/main-slider-script.js"></script>
+    
+    <!-- thm custom script -->
+    <script src="js/custom.js"></script>
+    
+    
+    
+    </body>
+    
+    
+    
+    </html>
+    
+    
+    
+    
+    
+    
+    
+    
+            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+         
+    
+    </html>
